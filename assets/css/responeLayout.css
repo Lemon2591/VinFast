@@ -1,0 +1,215 @@
+/* PC */
+@media (min-width: 1024px) {
+    .Contact-Form-Data-Content{
+        margin-bottom: 100px;
+    }
+
+
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width:1024px ) {
+
+
+
+    .layout {
+        top: 15%;
+        position: fixed;
+        left: 18%;
+        z-index: 50;
+        box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+        /* animation-name: open-layout;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+        padding-bottom: 50px; */
+        
+
+    }
+
+    .Contact-Form-Data-res {
+        width: 60%;
+    }
+
+    .close-layout {
+        display: none;
+        visibility: visible ;
+        animation-name: close-layout !important;
+        animation-duration: 1s !important;
+        animation-fill-mode: forwards !important;
+    }
+
+    .Customer-call > .Customer-call-icon {
+        background-color: #e00000;
+        padding: 15px 15px;
+        border-radius: 50px;
+    }
+
+    .layout_content {
+        margin: 60px 10px 10px 10px ;
+    }
+
+    .customer-zalo {
+        position: fixed;
+        bottom: 12%;
+        left: 2%;
+        animation: customer-call .5s infinite alternate;
+        z-index: 99;
+    }
+
+    .customer-location {
+        position: fixed;
+        bottom: 19%;
+        left: 2%;
+        animation: customer-call .5s infinite alternate;
+        z-index: 99;
+        background-color: #38b9db;
+        border-radius: 50px;
+    }
+
+
+}
+
+
+
+
+ /* Mobile */
+
+ @media (max-width:739px ){
+    .layout {
+        top: 15%;
+        position: fixed;
+        left: 17%;
+        z-index: 50;
+        box-shadow: rgb(0 0 0 / 25%) 0px 14px 28px, rgb(0 0 0 / 22%) 0px 10px 10px;
+        /* animation-name: open-layout;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        padding-bottom: 15px; */
+
+    }
+
+    .Contact-Form-Data-res {
+        width: 65%;
+    }
+
+    .close-layout {
+        /* display: none; */
+        animation-name: close-layout;
+        animation-duration: 1s !important;
+        animation-fill-mode: forwards;
+        /* visibility: hidden ; */
+       
+    }
+
+    .Customer-call > .Customer-call-icon {
+        background-color: #e00000;
+        padding: 15px 15px;
+        border-radius: 50px;
+    }
+
+    .layout_content {
+        margin: 60px 10px 10px 10px ;
+    }
+
+
+    .Contact-Form-Data-Title {
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+    }
+    .Form-Data-Input > input {
+        width: 75%;
+        padding: 5px 15px;
+        display: inline-block;
+        box-sizing: border-box;
+
+    }
+
+    .SelectFormat {
+        width: 75%;
+        padding: 5px 15px;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #04AA6D;
+        color: white;
+        padding: 5px 15px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .SubmitData {
+        margin-top: 20px !important;
+        font-size: 10px;
+        font-weight: 500;
+        border-radius: 99px !important;
+        background-color: #cf1010 !important;
+        transition: .3s;
+    }
+
+    .Contact-Form-Data-Title > p {
+        margin-bottom: 20px;
+    }
+
+    .Contact-Form-Data-Title {
+        padding-top: 10px;
+    }
+    
+
+    .SubmitData {}
+
+    .customer-zalo {
+        position: fixed;
+        bottom: 15%;
+        left: 2%;
+        animation: customer-call .5s infinite alternate;
+        z-index: 99;
+    }
+
+    .customer-location {
+        position: fixed;
+        bottom: 26%;
+        left: 2%;
+        animation: customer-call .5s infinite alternate;
+        z-index: 99;
+        background-color: #38b9db;
+        border-radius: 50px;
+    }
+  
+}
+
+
+
+@keyframes open-layout {
+
+    from {
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+
+ to {
+     opacity: 1;
+     transform: translateY(0);
+ }
+ 
+}
+
+@keyframes close-layout {
+
+    from {
+        opacity: 1;
+        
+    }
+
+ to {
+     opacity: 0;
+     visibility: hidden ;
+ 
+}
+
+}

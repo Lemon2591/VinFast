@@ -1,0 +1,63 @@
+.main {
+    position: relative;
+}
+.Customer-call {
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    animation: customer-call .5s infinite alternate;
+    z-index: 99;
+}
+
+.Customer-call > .Customer-call-icon{
+   
+    background-color:#e00000 ;
+    padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.Customer-call > .Customer-call-icon > a {
+    color: #fff;
+}
+
+.customer-zalo {
+    position: fixed;
+    bottom: 15%;
+    left: 2%;
+    animation: customer-call .5s infinite alternate;
+    z-index: 99;
+
+}
+
+.customer-location {
+    position: fixed;
+    bottom: 25%;
+    left: 2%;
+    animation: customer-call .5s infinite alternate;
+    z-index: 99;
+    background-color: #38b9db;
+    border-radius: 50px;
+}
+
+.customer-zalo-icon > a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.customer-zalo-icon > a > i {
+    padding: 0 7px;
+ }
+@keyframes customer-call {
+    from {
+        -ms-transform: scale(1.4,1.4);
+        -webkit-transform: scale(1.4,1.4);
+        transform: scale(1.4,1.4);
+    
+    }
+    to {
+        -ms-transform: scale(1.05,1.05);
+        -webkit-transform: scale(1.05,1.05);
+        transform: scale(1.05,1.05);
+    }
+    
+}

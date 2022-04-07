@@ -1,0 +1,134 @@
+.main_footer {
+    background-color: #666666;
+}
+
+.footer-if {
+    color: #fff;
+    position: relative;
+}
+
+
+.footer-container {
+    display: flex;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.footer-if-tile {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer-if-tile1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-if-location, 
+.footer-if-hootline,
+.footer-if-web {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.pdright {
+    padding-right: 50px;
+}
+
+.footer-if {
+    width:calc(100%/2);
+}
+
+.footer-list {
+    padding: 0 !important;
+    margin: 0 !important ;
+}
+
+.footer-list > ul {
+    font-size: 14px;
+    width: calc(100%/2);
+}
+
+.footer-if-web {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+.footer-list > ul > li {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(133, 133, 133);
+    margin: 0;
+}
+
+.footer-list > ul > li > a > i {
+    font-size: 12px;
+    margin-right: 5px;
+    color:olivedrab;
+}
+
+.footer-list > ul > li > a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.pdringht20px {
+    margin-left: 25px;
+}
+
+.footer-if-tile::after {
+    content: '';
+    position: absolute;
+    background-color:rgb(180, 180, 180);
+    width: 50px;
+    height: 2px;
+    left: 0;
+    top: 25%;
+    
+}
+.footer-if-tile1::after {
+    content: '';
+    position: absolute;
+    background-color:rgb(180, 180, 180);
+    width: 50px;
+    height: 2px;
+    left: 5%;
+    top: 25%;
+}
+
+.footer-down {
+    background-color:#5b5b5b ;
+}
+
+.footer-down-container {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-down-container {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-down-content-link > a {
+    color: rgb(185, 185, 185);
+    text-decoration: none;
+}
+
+.footer-down-content-link > a {
+    font-size: 14px;
+    font-weight: 500 ;
+    margin-right: 10px;
+}
+
+.footter-down-content-text > span {
+    color: rgb(185, 185, 185);
+}

@@ -1,0 +1,85 @@
+.main {
+    position: relative;
+}
+
+.layout {
+    top: 15%;
+    position: fixed;
+    left: calc((100% - 950px)/2);
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: none;
+    animation-name: open-layout;
+    /* animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    padding-bottom: 50px;
+    transition: display .3s; */
+}
+
+
+.layout_content  {
+    
+}
+
+.layout_content {
+    position: relative;
+}
+
+.Contact-Form-Data-Content-icon {
+    position: absolute;
+    color: #fff;
+    right: 0;
+    margin: 30px 30px 0 0;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .3s;
+    z-index: 99;
+}
+
+
+
+
+.Contact-Form-Data-Content-icon:hover {
+    transform: scale(1.5);
+    /* background-color: #780000;
+    padding: 2px 5px;
+    border-radius: 5px; */
+}   
+
+.close-layout {
+    visibility: visible ;
+    animation-name: close-layout;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes open-layout {
+
+    from {
+        opacity: 0;
+        transform: translateY(-30%);
+        
+    }
+
+ to {
+     opacity: 1;
+     transform: translateY(0);
+ }
+ 
+}
+
+@keyframes close-layout {
+
+    from {
+        opacity: 1;
+        
+    }
+
+ to {
+     opacity: 0;
+     
+ 
+}
+
+}

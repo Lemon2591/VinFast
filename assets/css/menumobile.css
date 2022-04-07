@@ -1,0 +1,51 @@
+.nav-menu-res {
+    color: #fff;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.nav-menu-res:hover {
+    transform:scale(1.4);
+
+}
+
+.menu-mobile-open {
+    display: block !important;
+    
+}
+
+
+
+
+@keyframes open-menu {
+
+    from {
+        opacity: 0;
+        transform: translateX(0);
+    }
+
+ to {
+     opacity: 1;
+     transform: translateX(30%);
+ }
+ 
+}
+
+@keyframes close-menu {
+
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+ to {
+     opacity: 0;
+     transform: translateX(30%);
+ 
+}
+
+}
